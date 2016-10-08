@@ -18,17 +18,16 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
 
+        // Verifica se o usuario esta logado
         if (auth.getCurrentUser() != null) {
-            // Se o usuário já estiver logados
 
-
+            // abre a tela home
             startActivity(new Intent(this, HomeActivity.class));
             finish();
 
         } else {
 
-            // Se o usuário não estiver logado
-
+            // abre a tela de login
             startActivityForResult(
                     AuthUI.getInstance()
                             .createSignInIntentBuilder()
@@ -39,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                                     AuthUI.FACEBOOK_PROVIDER)
                             .build(),
                     RC_SIGN_IN);
-
 
         }
 
