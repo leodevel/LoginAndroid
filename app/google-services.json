@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "431440506848",
+    "firebase_url": "https://exemplologinandroid-40351.firebaseio.com",
+    "project_id": "exemplologinandroid-40351",
+    "storage_bucket": "exemplologinandroid-40351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431440506848:android:e3b9234bc12d8af1",
+        "android_client_info": {
+          "package_name": "com.leodevel.loginandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431440506848-vdrar0mmam9qt1bg7bv1gpb1kg12mh5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWLle3Ww6w5s48h4H47MryCwUsDNktkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
