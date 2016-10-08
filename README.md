@@ -1,10 +1,10 @@
 # Login com o Facebook e Google usando o Firebase-Auth
 
-## Primeiramente
+## Referências 
 
-- Crie um projeto android do facebook, através do endereço https://developers.facebook.com/. Siga todos os procedimentos no ato da criação. 
+Este exemplo foi desenvolvido seguindo o tutorial do firebase, através do endereço https://github.com/firebase/FirebaseUI-Android/tree/master/auth.
 
-- Crie um projeto android do firebase, através do endereço https://console.firebase.google.com/. Siga todos os procedimentos no ato da criação. 
+Importante ressaltar que é necessário criar um projeto android do facebook através do endereço https://developers.facebook.com/ e um projeto android do firebase através do endereço https://console.firebase.google.com/.
 
 ## Login
 
